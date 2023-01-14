@@ -1,9 +1,0 @@
----
-username: kitchen
-ssh_key: "/Users/gregs/workspace/gscho/homelab/cookbooks/tailscale/.kitchen/docker_id_rsa"
-image_id: sha256:504cb41ea1c7a41fb46e13a7f1a9fde8c89f6739e1fca2e72a72a0828f269e03
-container_id: bde3e71b234cdebc03f6a0867a8c6eade7b93070de1775eed9dc9bf9bd3c7288
-hostname: localhost
-port: 50891
-last_action: converge
-last_error:

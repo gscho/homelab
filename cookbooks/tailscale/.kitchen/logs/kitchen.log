@@ -1,0 +1,16 @@
+I, [2023-01-14T11:05:58.780741 #14746]  INFO -- Kitchen: -----> Starting Test Kitchen (v3.5.0)
+I, [2023-01-14T11:05:58.930596 #14746]  INFO -- Kitchen: -----> Destroying <default-ubuntu-2204>...
+I, [2023-01-14T11:05:58.930793 #14746]  INFO -- Kitchen: [Docker] Destroying Docker container bde3e71b234cdebc03f6a0867a8c6eade7b93070de1775eed9dc9bf9bd3c7288
+I, [2023-01-14T11:05:59.009871 #14746]  INFO -- Kitchen: UID                 PID                 PPID                C                   STIME               TTY                 TIME                CMD
+I, [2023-01-14T11:05:59.010073 #14746]  INFO -- Kitchen: root                18528               18503               0                   15:57               ?                   00:00:00            /sbin/init
+I, [2023-01-14T11:05:59.010172 #14746]  INFO -- Kitchen: statd               18596               18528               0                   15:57               ?                   00:00:00            @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+I, [2023-01-14T11:05:59.010202 #14746]  INFO -- Kitchen: root                18598               18528               0                   15:57               ?                   00:00:00            /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+I, [2023-01-14T11:05:59.010219 #14746]  INFO -- Kitchen: root                18609               18528               0                   15:57               ?                   00:00:00            sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+I, [2023-01-14T11:05:59.010237 #14746]  INFO -- Kitchen: root                18608               18528               0                   15:57               tty1                00:00:00            /sbin/agetty -o -p -- \u --noclear tty1 linux
+I, [2023-01-14T11:05:59.010750 #14746]  INFO -- Kitchen: root                18576               18528               0                   15:57               ?                   00:00:00            /lib/systemd/systemd-journald
+I, [2023-01-14T11:05:59.010781 #14746]  INFO -- Kitchen: root                18606               18528               0                   15:57               ?                   00:00:00            /lib/systemd/systemd-logind
+I, [2023-01-14T11:05:59.010797 #14746]  INFO -- Kitchen: _rpc                19558               18528               0                   15:58               ?                   00:00:00            /lib/systemd/systemd-resolved
+I, [2023-01-14T11:05:59.010814 #14746]  INFO -- Kitchen: root                19506               18528               0                   15:58               ?                   00:00:02            /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --socket=/run/tailscale/tailscaled.sock --port=41641
+I, [2023-01-14T11:05:59.227427 #14746]  INFO -- Kitchen: bde3e71b234cdebc03f6a0867a8c6eade7b93070de1775eed9dc9bf9bd3c7288
+I, [2023-01-14T11:05:59.486246 #14746]  INFO -- Kitchen: bde3e71b234cdebc03f6a0867a8c6eade7b93070de1775eed9dc9bf9bd3c7288
+I, [2023-01-14T11:05:59.514631 #14746]  INFO -- Kitchen: -----> Test Kitchen is finished. (0m0.73s)
