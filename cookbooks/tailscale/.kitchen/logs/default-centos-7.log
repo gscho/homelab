@@ -1,0 +1,33 @@
+I, [2023-01-14T10:28:33.312498 #9441]  INFO -- default-centos-7: -----> Creating <default-centos-7>...
+E, [2023-01-14T10:28:33.339934 #9441] ERROR -- default-centos-7: Create failed on instance <default-centos-7>.
+E, [2023-01-14T10:28:33.340007 #9441] ERROR -- default-centos-7: ------Exception-------
+E, [2023-01-14T10:28:33.340021 #9441] ERROR -- default-centos-7: Class: NoMethodError
+E, [2023-01-14T10:28:33.340032 #9441] ERROR -- default-centos-7: Message: undefined method `each' for nil:NilClass
+E, [2023-01-14T10:28:33.340042 #9441] ERROR -- default-centos-7: ----------------------
+E, [2023-01-14T10:28:33.340051 #9441] ERROR -- default-centos-7: ------Backtrace-------
+E, [2023-01-14T10:28:33.340061 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/kitchen-dokken-2.17.4/lib/kitchen/driver/dokken.rb:444:in `docker_config_creds'
+E, [2023-01-14T10:28:33.340070 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/kitchen-dokken-2.17.4/lib/kitchen/driver/dokken.rb:464:in `docker_creds_for_image'
+E, [2023-01-14T10:28:33.340079 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/kitchen-dokken-2.17.4/lib/kitchen/driver/dokken.rb:663:in `block in pull_image'
+E, [2023-01-14T10:28:33.340089 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/kitchen-dokken-2.17.4/lib/kitchen/driver/dokken.rb:676:in `with_retries'
+E, [2023-01-14T10:28:33.340099 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/kitchen-dokken-2.17.4/lib/kitchen/driver/dokken.rb:658:in `pull_image'
+E, [2023-01-14T10:28:33.340107 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/kitchen-dokken-2.17.4/lib/kitchen/driver/dokken.rb:473:in `pull_platform_image'
+E, [2023-01-14T10:28:33.340116 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/kitchen-dokken-2.17.4/lib/kitchen/driver/dokken.rb:80:in `create'
+E, [2023-01-14T10:28:33.340126 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:495:in `public_send'
+E, [2023-01-14T10:28:33.340140 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:495:in `block in perform_action'
+E, [2023-01-14T10:28:33.340149 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:563:in `synchronize_or_call'
+E, [2023-01-14T10:28:33.340158 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:524:in `block in action'
+E, [2023-01-14T10:28:33.340167 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/3.0.0/benchmark.rb:293:in `measure'
+E, [2023-01-14T10:28:33.340176 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:523:in `action'
+E, [2023-01-14T10:28:33.340184 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:495:in `perform_action'
+E, [2023-01-14T10:28:33.340193 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:404:in `create_action'
+E, [2023-01-14T10:28:33.340202 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:392:in `block (2 levels) in transition_to'
+E, [2023-01-14T10:28:33.340211 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/lifecycle_hooks.rb:47:in `run_with_hooks'
+E, [2023-01-14T10:28:33.340219 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:391:in `block in transition_to'
+E, [2023-01-14T10:28:33.340239 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:390:in `each'
+E, [2023-01-14T10:28:33.340247 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:390:in `transition_to'
+E, [2023-01-14T10:28:33.340255 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/instance.rb:128:in `create'
+E, [2023-01-14T10:28:33.340263 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:195:in `public_send'
+E, [2023-01-14T10:28:33.340270 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:195:in `run_action_in_thread'
+E, [2023-01-14T10:28:33.340278 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/test-kitchen-3.5.0/lib/kitchen/command.rb:166:in `block (2 levels) in run_action'
+E, [2023-01-14T10:28:33.340287 #9441] ERROR -- default-centos-7: /opt/cinc-workstation/embedded/lib/ruby/gems/3.0.0/gems/logging-2.3.1/lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+E, [2023-01-14T10:28:33.340295 #9441] ERROR -- default-centos-7: ----End Backtrace-----

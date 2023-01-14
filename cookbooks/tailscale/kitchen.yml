@@ -1,0 +1,21 @@
+---
+driver:
+  name: docker
+
+provisioner:
+  name: chef_zero
+  product_version: 17.10.0
+
+platforms:
+  - name: ubuntu-22.04
+    driver_config:
+      image: ubuntu:22.04
+      platform: ubuntu
+      run_command: /sbin/init
+      privileged: true
+
+suites:
+  - name: default
+    run_list:
+      - recipe[tailscale::default]
+    attributes:
