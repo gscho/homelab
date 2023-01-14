@@ -21,7 +21,7 @@ service "tailscaled" do
 end
 
 file "#{ENV["HOME"]}/ts.key" do
-  content "tskey-auth-kU3Sm46CNTRL-m3PUKTpYCadBjeLXc27PcdNdvqM9eSQTN"
+  content node["tailscale"]["auth-key"]
 end
 
 execute "tailscale up" do
